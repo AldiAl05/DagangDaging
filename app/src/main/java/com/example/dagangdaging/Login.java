@@ -26,5 +26,7 @@ public class Login extends AppCompatActivity {
     }
 
     public void onClickbtnLoginMasuk(View view) {
+        Intent masuk = new Intent( Login. this, MainActivity.class);
+        startActivity(masuk);
     }
 }
