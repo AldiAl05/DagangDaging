@@ -21,9 +21,10 @@
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_register.xml" value="0.34646739130434784" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_splash_screen.xml" value="0.17426545086119555" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_account.xml" value="0.1796875" />
-        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_discount.xml" value="0.13541666666666666" />
-        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_home.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_discount.xml" value="0.17" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_transaction.xml" value="0.1796875" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_transactions.xml" value="0.2" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/menu/item_bottom_navigation.xml" value="0.22" />
       </map>
     </option>
