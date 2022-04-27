@@ -3,14 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3145" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_account.xml" value="0.187" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_home.xml" value="0.187" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_promo.xml" value="0.187" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_transaction.xml" value="0.187" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/icon_notifications.xml" value="0.3145" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/icon_shopping_cart.xml" value="0.3145" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ractangle2.xml" value="0.3365" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/rectangle1.xml" value="0.1965" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/rectangle2.xml" value="0.18" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/rectangle3.xml" value="0.1485" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_forget_password.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_register.xml" value="0.34646739130434784" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_splash_screen.xml" value="0.17426545086119555" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_account.xml" value="0.1796875" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_discount.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_home.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/fragment_transaction.xml" value="0.1796875" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/menu/item_bottom_navigation.xml" value="0.22" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
