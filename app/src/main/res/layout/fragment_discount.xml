@@ -7,7 +7,6 @@
     android:background="@color/lightGray"
     tools:context=".FragmentDiscount">
 
-    <!--popular item-->
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
