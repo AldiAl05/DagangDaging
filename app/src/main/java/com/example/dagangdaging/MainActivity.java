@@ -1,12 +1,12 @@
 package com.example.dagangdaging;
 
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.os.Bundle;
 
 import com.example.dagangdaging.databinding.ActivityMainBinding;
 import com.example.dagangdaging.fragment.FragmentAccount;

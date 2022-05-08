@@ -1,224 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightGray"
-    tools:context=".fragment.FragmentHome">
+    tools:context="Kategori.daging_steak">
 
     <!--Header-->
     <LinearLayout
-        android:id="@+id/linearsearch"
+        android:id="@+id/linearheader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:background="@drawable/rectangle2"
-        android:orientation="horizontal"
-        android:padding="20dp">
+        android:orientation="vertical"
+        android:padding="10dp">
 
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:drawableStart="@drawable/icon_search"
-            android:hint="cari daging"
-            android:padding="10dp" />
-
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="5dp"
-            android:background="@color/GreenCyan"
-            android:src="@drawable/icon_shopping_cart" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="5dp"
-            android:background="@color/GreenCyan"
-            android:src="@drawable/icon_notifications" />
-
-    </LinearLayout>
-
-    <!--kategori-->
-    <LinearLayout
-        android:id="@+id/linearhorizontalview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearsearch"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/kategori"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:text="Kategori"
-            android:textColor="@color/Orange"
-            android:textSize="24dp"
-            android:textStyle="bold" />
-
-        <HorizontalScrollView
-
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
-            <LinearLayout
+            <ImageButton
+                android:id="@+id/imgbtndsback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:padding="10dp">
+                android:layout_alignParentStart="true"
+                android:backgroundTint="@color/GreenCyan"
+                android:src="@drawable/ic_arrow_back" />
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/cvdagingsteak"
-                    android:layout_width="130dp"
-                    android:layout_height="150dp"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true">
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:background="@color/white"
+                android:drawableStart="@drawable/icon_search"
+                android:hint="cari daging"
+                android:padding="5dp" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="90dp"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:gravity="bottom"
-                            android:text="Daging Steak"
-                            android:textSize="14dp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/cvdagingolahan"
-                    android:layout_width="130dp"
-                    android:layout_height="150dp"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="90dp"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="false"
-                            android:src="@drawable/img_daging_olahan" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:gravity="bottom"
-                            android:text="Daging Olahan"
-                            android:textSize="14dp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpaketdaging"
-                    android:layout_width="130dp"
-                    android:layout_height="150dp"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="90dp"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="false"
-                            android:src="@drawable/img_paket_daging" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:gravity="bottom"
-                            android:text="Paket Daging"
-                            android:textSize="14dp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/cvbumbudapur"
-                    android:layout_width="130dp"
-                    android:layout_height="150dp"
-                    app:cardCornerRadius="5dp"
-                    app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="10dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="90dp"
-                            android:adjustViewBounds="true"
-                            android:cropToPadding="false"
-                            android:src="@drawable/img_bumbu_daging" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:gravity="bottom"
-                            android:text="Bumbu Dapur"
-                            android:textSize="14dp"
-                            android:textStyle="bold" />
-
-                    </LinearLayout>
-                </androidx.cardview.widget.CardView>
-
-            </LinearLayout>
-
-        </HorizontalScrollView>
-
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@color/GreenCyan"
+                android:layout_centerInParent="true"
+                android:paddingEnd="25dp"
+                android:src="@drawable/icon_shopping_cart" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/GreenCyan"
+                android:src="@drawable/icon_notifications"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
     </LinearLayout>
 
-    <!--popular item-->
+    <!-- daging Steak -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/linearhorizontalview"
+        android:layout_below="@id/linearheader"
         android:layout_alignParentBottom="true"
         android:orientation="vertical">
 
@@ -226,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:text="Popular Item"
+            android:text="Daging Steak"
             android:textColor="@color/Orange"
             android:textSize="24dp"
             android:textStyle="bold" />
@@ -247,7 +88,6 @@
                 android:rowCount="1">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpop1"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -267,7 +107,7 @@
                             android:layout_height="match_parent"
                             android:adjustViewBounds="true"
                             android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
+                            android:src="@drawable/sirloin" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -295,7 +135,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpop2"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -315,7 +154,7 @@
                             android:layout_height="match_parent"
                             android:adjustViewBounds="true"
                             android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
+                            android:src="@drawable/sandung_lumur" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -343,7 +182,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpop3"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -363,7 +201,7 @@
                             android:layout_height="match_parent"
                             android:adjustViewBounds="true"
                             android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
+                            android:src="@drawable/shortplate" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -391,7 +229,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpop4"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -411,7 +248,7 @@
                             android:layout_height="match_parent"
                             android:adjustViewBounds="true"
                             android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
+                            android:src="@drawable/tenderloin" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -439,7 +276,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpop5"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -456,10 +292,10 @@
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="172dp"
                             android:adjustViewBounds="true"
                             android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
+                            android:src="@drawable/igaa" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -487,7 +323,6 @@
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cvpop6"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
@@ -507,7 +342,7 @@
                             android:layout_height="match_parent"
                             android:adjustViewBounds="true"
                             android:cropToPadding="false"
-                            android:src="@drawable/img_daging_steak" />
+                            android:src="@drawable/paha_atas" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -537,5 +372,9 @@
             </GridLayout>
         </ScrollView>
     </LinearLayout>
+
+
+
+
 
 </RelativeLayout>

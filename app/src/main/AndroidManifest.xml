@@ -10,13 +10,40 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DagangDaging">
         <activity
-            android:name=".SettingAbout"
+            android:name=".DetailPemesanan"
             android:exported="false" />
         <activity
-            android:name=".SettingChangePassword"
+            android:name=".DetailProduk"
             android:exported="false" />
         <activity
-            android:name=".SettingProfile"
+            android:name=".AddChart"
+            android:exported="false" />
+        <activity
+            android:name=".Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.bumbu_daging"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.paket_daging"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.daging_olahan"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.daging_steak"
+            android:exported="false" />
+        <activity
+            android:name=".Setting.SettingLogOut"
+            android:exported="false" />
+        <activity
+            android:name=".Setting.SettingAbout"
+            android:exported="false" />
+        <activity
+            android:name=".Setting.SettingChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".Setting.SettingProfile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

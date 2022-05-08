@@ -1,14 +1,22 @@
 package com.example.dagangdaging.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.dagangdaging.DetailProduk;
 import com.example.dagangdaging.R;
+import com.example.dagangdaging.Kategori.daging_steak;
+import com.example.dagangdaging.Kategori.daging_olahan;
+import com.example.dagangdaging.Kategori.paket_daging;
+import com.example.dagangdaging.Kategori.bumbu_daging;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,6 +69,93 @@ public class FragmentHome extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        //inflater.inflate(R.layout.fragment_home, container, false);
+
+        //kategori
+        CardView katdagingsteak = (CardView) view.findViewById(R.id.cvdagingsteak);
+        CardView katdagingolahan = (CardView) view.findViewById(R.id.cvdagingolahan);
+        CardView katpaketdaging = (CardView) view.findViewById(R.id.cvpaketdaging);
+        CardView katbumbudapur = (CardView) view.findViewById(R.id.cvbumbudapur);
+
+        //popular item
+        CardView popitem1 = (CardView) view.findViewById(R.id.cvpop1);
+        CardView popitem2 = (CardView) view.findViewById(R.id.cvpop2);
+        CardView popitem3 = (CardView) view.findViewById(R.id.cvpop3);
+        CardView popitem4 = (CardView) view.findViewById(R.id.cvpop4);
+        CardView popitem5 = (CardView) view.findViewById(R.id.cvpop5);
+        CardView popitem6 = (CardView) view.findViewById(R.id.cvpop6);
+
+        katdagingsteak.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), daging_steak.class);
+                startActivity(In);
+            }
+        });
+        katdagingolahan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), daging_olahan.class);
+                startActivity(In);
+            }
+        });
+        katpaketdaging.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), paket_daging.class);
+                startActivity(In);
+            }
+        });
+        katbumbudapur.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), bumbu_daging.class);
+                startActivity(In);
+            }
+        });
+        popitem1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        popitem2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        popitem3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        popitem4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        popitem5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        popitem6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        return view;
     }
 }

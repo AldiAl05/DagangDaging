@@ -1,5 +1,6 @@
 package com.example.dagangdaging.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,8 +8,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.dagangdaging.R;
+import com.example.dagangdaging.Setting.SettingAbout;
+import com.example.dagangdaging.Setting.SettingChangePassword;
+import com.example.dagangdaging.Setting.SettingLogOut;
+import com.example.dagangdaging.Setting.SettingProfile;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -61,6 +67,42 @@ public class FragmentAccount extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_account, container, false);
+        View view = inflater.inflate(R.layout.fragment_account, container, false);
+        //inflater.inflate(R.layout.fragment_home, container, false);
+
+        Button btnprofile = (Button) view.findViewById(R.id.btnfragmentprofile);
+        Button btnchangepw = (Button) view.findViewById(R.id.btnfragmentchangepw);
+        Button btnabout = (Button) view.findViewById(R.id.btnfragmentabout);
+        Button btnlogout = (Button) view.findViewById(R.id.btnfragmentlogout);
+
+        btnprofile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(),SettingProfile.class);
+                startActivity(In);
+            }
+        });
+        btnchangepw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), SettingChangePassword.class);
+                startActivity(In);
+            }
+        });
+        btnabout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), SettingAbout.class);
+                startActivity(In);
+            }
+        });
+        btnlogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), SettingLogOut.class);
+                startActivity(In);
+            }
+        });
+        return view;
     }
 }
