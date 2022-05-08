@@ -6,10 +6,13 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import com.example.dagangdaging.databinding.ActivityMainBinding;
+import com.example.dagangdaging.fragment.FragmentAccount;
+import com.example.dagangdaging.fragment.FragmentDiscount;
+import com.example.dagangdaging.fragment.FragmentHome;
+import com.example.dagangdaging.fragment.FragmentTransactions;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getSupportActionBar().hide();
+
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());

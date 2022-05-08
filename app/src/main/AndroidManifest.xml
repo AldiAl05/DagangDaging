@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DagangDaging">
         <activity
-            android:name=".FragmentHome"
+            android:name=".SettingAbout"
+            android:exported="false" />
+        <activity
+            android:name=".SettingChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".SettingProfile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
