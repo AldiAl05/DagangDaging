@@ -9,19 +9,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.dagangdaging.MainActivity;
 import com.example.dagangdaging.R;
-import com.example.dagangdaging.Setting.SettingAbout;
 
-public class bumbu_daging extends AppCompatActivity {
+public class DagingOlahan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bumbu_daging);
-        ImageButton btnback = (ImageButton) findViewById(R.id.imgbtnbdback);
+        setContentView(R.layout.activity_daging_olahan);
+
+        ImageButton btnback = (ImageButton) findViewById(R.id.imgbtndoback);
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(bumbu_daging.this, MainActivity.class );
+                Intent In = new Intent(DagingOlahan.this, MainActivity.class );
                 startActivity(In);
             }
         });

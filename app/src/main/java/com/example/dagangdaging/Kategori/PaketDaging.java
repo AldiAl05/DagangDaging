@@ -9,9 +9,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.dagangdaging.MainActivity;
 import com.example.dagangdaging.R;
-import com.example.dagangdaging.Setting.SettingAbout;
 
-public class paket_daging extends AppCompatActivity {
+public class PaketDaging extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +21,7 @@ public class paket_daging extends AppCompatActivity {
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(paket_daging.this, MainActivity.class );
+                Intent In = new Intent(PaketDaging.this, MainActivity.class );
                 startActivity(In);
             }
         });

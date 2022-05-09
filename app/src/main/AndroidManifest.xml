@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DagangDaging">
-
+        <activity
+            android:name=".Notifikasi"
+            android:exported="false" />
         <activity
             android:name=".DetailPemesanan"
             android:exported="false" />
@@ -23,18 +25,6 @@
             android:name=".Checkout"
             android:exported="false" />
         <activity
-            android:name=".Kategori.bumbu_daging"
-            android:exported="false" />
-        <activity
-            android:name=".Kategori.paket_daging"
-            android:exported="false" />
-        <activity
-            android:name=".Kategori.daging_olahan"
-            android:exported="false" />
-        <activity
-            android:name=".Kategori.daging_steak"
-            android:exported="false" />
-        <activity
             android:name=".Setting.SettingLogOut"
             android:exported="false" />
         <activity
@@ -45,6 +35,18 @@
             android:exported="false" />
         <activity
             android:name=".Setting.SettingProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.BumbuDaging"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.PaketDaging"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.DagingOlahan"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori.DagingSteak"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

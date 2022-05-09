@@ -150,12 +150,12 @@
                 android:textSize="20px" />
 
             <TextView
-                android:layout_width="120dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginLeft="160dp"
+                android:gravity="right"
                 android:text="Rp 35.000"
                 android:textColor="@color/Orange"
-                android:textSize="21dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
         </LinearLayout>

@@ -9,6 +9,7 @@
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_home.xml" value="0.187" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_launcher_background.xml" value="0.232" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_password.xml" value="0.1935" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_price_tag.xml" value="0.2595" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_promo.xml" value="0.187" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/ic_transaction.xml" value="0.187" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/icon_notifications.xml" value="0.3145" />
@@ -18,7 +19,7 @@
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/rectangle1.xml" value="0.1965" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/rectangle2.xml" value="0.18" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/drawable/rectangle3.xml" value="0.1485" />
-        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_add_chart.xml" value="0.353713768115942" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_add_chart.xml" value="0.22" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_bumbu_daging.xml" value="0.22" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_checkout.xml" value="0.33" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_daging_olahan.xml" value="0.353713768115942" />
@@ -29,8 +30,9 @@
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_notifikasi.xml" value="0.22" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_paket_daging.xml" value="0.18" />
-        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_register.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_register.xml" value="0.233201581027668" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_setting_about.xml" value="0.3484375" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_setting_change_password.xml" value="0.22" />
         <entry key="..\:/Users/aldi0/AndroidStudioProjects/DagangDaging/app/src/main/res/layout/activity_setting_log_out.xml" value="0.21145833333333333" />

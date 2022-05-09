@@ -106,7 +106,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/Orange"
-            android:text="Daftar" />
+            android:text="Daftar"
+            android:onClick="daftarakun"/>
 
         <LinearLayout
             android:layout_width="match_parent"

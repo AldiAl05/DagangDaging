@@ -9,13 +9,16 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
+import com.example.dagangdaging.AddChart;
 import com.example.dagangdaging.DetailProduk;
+import com.example.dagangdaging.Notifikasi;
 import com.example.dagangdaging.R;
-import com.example.dagangdaging.Kategori.daging_steak;
-import com.example.dagangdaging.Kategori.daging_olahan;
-import com.example.dagangdaging.Kategori.paket_daging;
-import com.example.dagangdaging.Kategori.bumbu_daging;
+import com.example.dagangdaging.Kategori.DagingSteak;
+import com.example.dagangdaging.Kategori.DagingOlahan;
+import com.example.dagangdaging.Kategori.PaketDaging;
+import com.example.dagangdaging.Kategori.BumbuDaging;
 
 
 /**
@@ -86,31 +89,35 @@ public class FragmentHome extends Fragment {
         CardView popitem5 = (CardView) view.findViewById(R.id.cvpop5);
         CardView popitem6 = (CardView) view.findViewById(R.id.cvpop6);
 
+        //header
+        ImageButton addchart = (ImageButton) view.findViewById(R.id.addchart);
+        ImageButton notif = (ImageButton) view.findViewById(R.id.notif);
+
         katdagingsteak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(getActivity(), daging_steak.class);
+                Intent In = new Intent(getActivity(), DagingSteak.class);
                 startActivity(In);
             }
         });
         katdagingolahan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(getActivity(), daging_olahan.class);
+                Intent In = new Intent(getActivity(), DagingOlahan.class);
                 startActivity(In);
             }
         });
         katpaketdaging.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(getActivity(), paket_daging.class);
+                Intent In = new Intent(getActivity(), PaketDaging.class);
                 startActivity(In);
             }
         });
         katbumbudapur.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(getActivity(), bumbu_daging.class);
+                Intent In = new Intent(getActivity(), BumbuDaging.class);
                 startActivity(In);
             }
         });
@@ -153,6 +160,20 @@ public class FragmentHome extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent In = new Intent(getActivity(), DetailProduk.class);
+                startActivity(In);
+            }
+        });
+        addchart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), AddChart.class);
+                startActivity(In);
+            }
+        });
+        notif.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent In = new Intent(getActivity(), Notifikasi.class);
                 startActivity(In);
             }
         });
