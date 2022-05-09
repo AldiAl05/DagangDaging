@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightGray"
-    android:id="@+id/activityaboutt"
-    tools:context=".Setting.SettingAbout">
+    tools:context=".SettingAbout">
 
     <!--Header-->
     <LinearLayout
@@ -23,7 +22,6 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/imgbtnaboutback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"

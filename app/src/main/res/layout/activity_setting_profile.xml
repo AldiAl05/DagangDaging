@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightGray"
-    android:id="@+id/activitysetprofile"
-    tools:context=".Setting.SettingProfile">
+    tools:context=".SettingProfile">
 
     <!--Header-->
     <LinearLayout
@@ -20,14 +19,12 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <ImageButton
-                android:id="@+id/imgbtnprofileback"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_arrow_back"
                 android:backgroundTint="@color/GreenCyan"
-                android:src="@drawable/ic_arrow_back" />
+                android:layout_alignParentStart="true"/>
 
             <TextView
                 android:layout_width="wrap_content"
