@@ -29,7 +29,7 @@ public class DetailProduk extends AppCompatActivity {
         btnbeli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent In = new Intent(DetailProduk. this, Checkout.class);
+                Intent In = new Intent(DetailProduk. this, checkout.class);
                 startActivity(In);
             }
         });
